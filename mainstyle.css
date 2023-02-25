@@ -1,0 +1,128 @@
+body {
+    padding: 200px 0;
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+
+a,
+a:visited {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+.title {
+    color: #333366;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.menu {
+    color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.subtitle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: #333366;
+    color: white;
+    max-width: 70%;
+    min-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 25px;
+    align-items: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.weather {
+    color: black;
+    padding: 1.5rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 30%;
+    min-width: 300px;
+    max-height: 90px;
+    margin: 1rem;
+    border: #333366 solid 3px;
+    margin: 50px auto;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 10px;
+}
+
+.search button {
+    margin: 1rem;
+    border-radius: 50%;
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    outline: none;
+    background-color: #333366;
+    color: white;
+}
+
+.search button:hover {
+    background-color: #656586;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 1rem 1rem;
+    border-radius: 50px;
+    width: 15rem;
+    height: 0.3rem;
+    background-color: #333366;
+    color: white;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input::placeholder {
+    color: #a1a1b9;
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.loading {
+    visibility: hidden;
+}
+
+.loading::after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+}
+
+.right {
+    text-align: right;
+}
+
+.weather-loading {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    font-size: large;
+}
