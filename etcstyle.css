@@ -1,0 +1,72 @@
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+
+a,
+a:visited {
+    text-decoration-line: none;
+    color: inherit;
+}
+
+header {
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    max-width: 10%;
+    color: black;
+    margin: 0 auto;
+}
+
+.title {
+    color: #333366;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.menu {
+    background-color: #333366;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    min-height: 25px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    border: 2px solid black;
+    background-color: #bebedc;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 70px 0;
+    font-family: 'Do Hyeon', sans-serif;
+    border: 2px dashed black;
+    background-color: #dfdff1;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.todolist {
+    padding: 70px 40%;
+}
+
+.memo {
+    padding: 50px 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
